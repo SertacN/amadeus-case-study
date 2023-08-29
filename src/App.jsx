@@ -3,8 +3,7 @@ import "./App.css";
 import CheckBoxInput from "./components/CheckBoxInput";
 import OneWay from "./components/OneWay";
 import RoundTrip from "./components/RoundTrip";
-import DepartureInput from "./components/DepartureInput";
-import ArrivalInput from "./components/ArrivalInput";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   const [selectedCheckbox, setSelectedCheckbox] = useState("oneWay");
@@ -16,10 +15,6 @@ function App() {
           selectedCheckbox={selectedCheckbox}
           setSelectedCheckbox={setSelectedCheckbox}
         />
-        <div className="search-container">
-          <DepartureInput />
-          <ArrivalInput />
-        </div>
         <div>
           {selectedCheckbox === "oneWay" ? (
             <>
@@ -32,6 +27,9 @@ function App() {
           ) : (
             <></>
           )}
+        </div>
+        <div className="search-container">
+          <SearchBar />
         </div>
       </div>
     </div>
