@@ -6,12 +6,12 @@ Bir uçuş arama uygulaması için frontend application geliştirilecek.
 Beklentiler:
 Arama Özelliği:
 
-- []Kalkış havaalanı, varış havaalanı, kalkış tarihi, dönüş tarihi seçilebilen bir arama kutusu yapılmalı
-- []“Tek yönlü uçuş” olduğunu belirten bir seçenek olmalı. Bu seçildiyse dönüş tarihi girilmemeli.
-- []Dönen sonuçlar listelenmeli.
-- []Kalkış ve varış havaalanı input kutularında yazıldığı anda havaalanları koda ve şehre göre search edilmeli ve uygun olanlar listelenmeli.
-- []Kalkış ve dönüş tarihi input kutularında datepicker kullanılmalı.
-- []Tüm alanların validasyonu yapılmalı
+- Kalkış havaalanı, varış havaalanı, kalkış tarihi, dönüş tarihi seçilebilen bir arama kutusu yapılmalı
+- “Tek yönlü uçuş” olduğunu belirten bir seçenek olmalı. Bu seçildiyse dönüş tarihi girilmemeli.
+- Dönen sonuçlar listelenmeli.
+- Kalkış ve varış havaalanı input kutularında yazıldığı anda havaalanları koda ve şehre göre search edilmeli ve uygun olanlar listelenmeli.
+- Kalkış ve dönüş tarihi input kutularında datepicker kullanılmalı.
+- Tüm alanların validasyonu yapılmalı
 
   Listeleme Özelliği:
 
