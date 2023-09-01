@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import axios from "axios";
 
 const Context = createContext();
 
@@ -11,76 +12,55 @@ function Provider({ children }) {
   const [isLoading, setIsLoading] = useState(false);
 
   const fetchData = async (value) => {
-    await fetch("http://localhost:3000/user")
-      .then((response) => response.json())
-      .then((data) => {
-        const result = data.filter((item) => {
-          return (
-            value &&
-            item &&
-            item.name &&
-            item.name.toLowerCase().includes(value)
-          );
-        });
-        // console.log(result);
-        setResult(result);
-      });
+    const response = await axios.get("http://localhost:3000/user");
+    // console.log(response);
+    const result = response.data.filter((item) => {
+      return (
+        value && item && item.name && item.name.toLowerCase().includes(value)
+      );
+    });
+    setResult(result);
   };
 
   const departureData = async (value) => {
-    setIsLoading(true);
-    await fetch("http://localhost:3000/user")
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log(data);
-        const result = data.filter((item) => {
-          return (
-            value &&
-            item &&
-            item.name &&
-            item.name.toLowerCase().includes(value)
-          );
-        });
-        if (result.length === 0) {
-          alert("Lütfen doğru kalkış alanı yazdığınızdan emin olun.");
-          return;
-        }
-        // console.log(result);
-        setDepData(result);
-      })
-      .catch((err) => {
-        alert("Bir hata oluştu:" + err);
+    try {
+      setIsLoading(true);
+      const response = await axios.get("http://localhost:3000/user");
+      const result = response.data.filter((item) => {
+        return (
+          value && item && item.name && item.name.toLowerCase().includes(value)
+        );
       });
-    setIsLoading(false);
+      if (result.length === 0) {
+        alert("Lütfen doğru kalkış alanı yazdığınızdan emin olun.");
+      }
+      setDepData(result);
+      setIsLoading(false);
+    } catch (error) {
+      alert("DepartureData - Bir hata oluştu: " + error);
+      setIsLoading(false);
+    }
   };
 
   const arrivalData = async (value) => {
-    setIsLoading(true);
-    await fetch("http://localhost:3000/user")
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log(data);
-        const result = data.filter((item) => {
-          return (
-            value &&
-            item &&
-            item.name &&
-            item.name.toLowerCase().includes(value)
-          );
-        });
-        if (result.length === 0) {
-          alert("Lütfen doğru varış alanı yazdığınızdan emin olun.");
-          return;
-        }
-        // console.log(result);
-        setArriData(result);
-      })
-      .catch((err) => {
-        alert("Bir hata oluştu:" + err);
+    try {
+      setIsLoading(true);
+      const response = await axios.get("http://localhost:3000/user");
+      const result = response.data.filter((item) => {
+        return (
+          value && item && item.name && item.name.toLowerCase().includes(value)
+        );
       });
-    setIsLoading(false);
+      if (result.length === 0) {
+        alert("Lütfen doğru varış alanı yazdığınızdan emin olun.");
+      }
+      setArriData(result);
+      setIsLoading(false);
+    } catch (error) {
+      alert("ArrivalData - Bir hata oluştu:" + error);
+      setIsLoading(false);
+    }
   };
-
   const sharedValue = {
     visible,
     setVisible,
