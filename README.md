@@ -1,27 +1,51 @@
+<h2>Amadeus Case Study - Sertaç Can</h2>
 Case Study: Flight Search Application (UI Developer)
 
-Açıklama
-Bir uçuş arama uygulaması için frontend application geliştirilecek.
+<h3>Project Setup</h3>
 
-Beklentiler:
-Arama Özelliği:
+- Installation for package: `npm install`
+- Start project: `npm run dev`
+- Server port: http://localhost:5173/
 
-- Kalkış havaalanı, varış havaalanı, kalkış tarihi, dönüş tarihi seçilebilen bir arama kutusu yapılmalı
-- “Tek yönlü uçuş” olduğunu belirten bir seçenek olmalı. Bu seçildiyse dönüş tarihi girilmemeli.
-- Dönen sonuçlar listelenmeli.
-- Kalkış ve varış havaalanı input kutularında yazıldığı anda havaalanları koda ve şehre göre search edilmeli ve uygun olanlar listelenmeli.
-- Kalkış ve dönüş tarihi input kutularında datepicker kullanılmalı.
-- Tüm alanların validasyonu yapılmalı
+<h3>Mock api</h3>
 
-  Listeleme Özelliği:
+I used JSON server for api request
 
-- Listelenen uçuşlar kalkış saati, dönüş saati, uçuş uzunluğu, ya da fiyata göre sıralanabilmeli
-- Sunucudan cevap gelene kadar kullanıcıya “yükleniyor” animasyonu gösterilmeli
-- Listelenen uçuşların detay bilgileri gösterilmeli (havayolu, şehir, vs.)
+- Installation json server: `npm install -g json-server`
+- Start server: `json-server --watch /src/mock/db.json`
+- Server port: http://localhost:3000/flights
 
-  Hata kontrolü: Sunucudan gelen tüm hata durumları handle edilmeli
+<h2>Overview</h2>
+<p>The user can search for airports using the application and see suitable places based on their chosen airport, departure, and arrival locations.</p>
 
-- Mock Data: Tüm API istekleri için bir mock API ve mock data oluşturulmalı. Frontend buna yapılan istekler üzerinden çalışmalı.
-- Boş data kontrolü: Sunucudan boş data gelmesi durumu handle edilmeli
-- Framework: İstenilen Javascript framework kullanılabilir
-- Git versiyon sistemi kullanılmalı. Proje GitHub’a yüklenilecek.
+<h3>Build with</h3>
+
+- CSS custom properties
+- Flexbox
+- React
+- Vite
+- Formik
+- Yup
+- Axios
+- esLint
+
+<h3>UX Part</h3>
+
+- Form validations.
+- Loading screen until data arrives.
+- Active/deactive button with color variance.
+- Hover effect.
+- Departure date always start today's date.
+- The arrival date cannot be smaller than the selected departure date.
+- If there is an incorrectly entered airport name, provide feedback through an alert.
+- If there is a server problem, show an alert indicating what the problem is.
+
+<h3>Screenshot</h3>
+
+![](./screenshot/5.JPG)
+![](./screenshot/6.JPG)
+![](./screenshot/7.JPG)
+
+More screenshot in screenshot folder.
+
+https://github.com/SertacN

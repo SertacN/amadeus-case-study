@@ -1,233 +1,263 @@
 {
-  "user": [
+  "flights": [
     {
       "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
+      "name": "Istanbul IST-11",
+      "price": "100",
+      "flightLength": "No Stops",
+      "airPort": "Sabiha Gökçen",
+      "phone": "444 1 442",
+      "website": "https://www.istairport.com/",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
       }
     },
     {
       "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
+      "name": "Istanbul IST-22",
+      "price": "150",
+      "flightLength": "No Stops",
+      "airPort": "Sabiha Gökçen",
+      "phone": "444 1 442",
+      "website": "https://www.istairport.com/",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
       }
     },
     {
       "id": 3,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
-      "address": {
-        "street": "Douglas Extension",
-        "suite": "Suite 847",
-        "city": "McKenziehaven",
-        "zipcode": "59590-4157",
-        "geo": {
-          "lat": "-68.6102",
-          "lng": "-47.0653"
-        }
-      },
-      "phone": "1-463-123-4447",
-      "website": "ramiro.info",
-      "company": {
-        "name": "Romaguera-Jacobson",
-        "catchPhrase": "Face to face bifurcated interface",
-        "bs": "e-enable strategic applications"
+      "name": "Ankara ANK-03",
+      "price": "130",
+      "flightLength": "No Stops",
+      "airPort": "Esenboğa",
+      "phone": "590 40 00",
+      "website": "https://www.esenbogaairport.com/tr-tr/",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
       }
     },
     {
       "id": 4,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "email": "Julianne.OConner@kory.org",
-      "address": {
-        "street": "Hoeger Mall",
-        "suite": "Apt. 692",
-        "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
-      },
-      "phone": "493-170-9623 x156",
-      "website": "kale.biz",
-      "company": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
+      "name": "Ankara ANK-08",
+      "price": "140",
+      "flightLength": "No Stops",
+      "airPort": "Esenboğa",
+      "phone": "590 40 00",
+      "website": "https://www.esenbogaairport.com/tr-tr/",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
       }
     },
     {
       "id": 5,
-      "name": "Chelsey Dietrich",
-      "username": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca",
-      "address": {
-        "street": "Skiles Walks",
-        "suite": "Suite 351",
-        "city": "Roscoeview",
-        "zipcode": "33263",
-        "geo": {
-          "lat": "-31.8129",
-          "lng": "62.5342"
-        }
-      },
-      "phone": "(254)954-1289",
-      "website": "demarco.info",
-      "company": {
-        "name": "Keebler LLC",
-        "catchPhrase": "User-centric fault-tolerant solution",
-        "bs": "revolutionize end-to-end systems"
+      "name": "Izmir IZM-01",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Adnan Menderes",
+      "phone": "455 00 00",
+      "website": "https://www.adnanmenderesairport.com/tr-TR/ucus-bilgileri",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
       }
     },
     {
       "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "username": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info",
-      "address": {
-        "street": "Norberto Crossing",
-        "suite": "Apt. 950",
-        "city": "South Christy",
-        "zipcode": "23505-1337",
-        "geo": {
-          "lat": "-71.4197",
-          "lng": "71.7478"
-        }
-      },
-      "phone": "1-477-935-8478 x6430",
-      "website": "ola.org",
-      "company": {
-        "name": "Considine-Lockman",
-        "catchPhrase": "Synchronised bottom-line interface",
-        "bs": "e-enable innovative applications"
+      "name": "Izmir IZM-02",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Adnan Menderes",
+      "phone": "455 00 00",
+      "website": "https://www.adnanmenderesairport.com/tr-TR/ucus-bilgileri",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
       }
     },
     {
       "id": 7,
-      "name": "Kurtis Weissnat",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
-      "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
-        "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
-        }
-      },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
-      "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+      "name": "Bursa BRS-12",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Yenişehir",
+      "phone": "781 81 81",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Yenisehir/AnaSayfa.aspx",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
       }
     },
     {
       "id": 8,
-      "name": "Nicholas Runolfsdottir V",
-      "username": "Maxime_Nienow",
-      "email": "Sherwood@rosamond.me",
-      "address": {
-        "street": "Ellsworth Summit",
-        "suite": "Suite 729",
-        "city": "Aliyaview",
-        "zipcode": "45169",
-        "geo": {
-          "lat": "-14.3990",
-          "lng": "-120.7677"
-        }
-      },
-      "phone": "586.493.6943 x140",
-      "website": "jacynthe.com",
-      "company": {
-        "name": "Abernathy Group",
-        "catchPhrase": "Implemented secondary concept",
-        "bs": "e-enable extensible e-tailers"
+      "name": "Bursa BRS-17",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Yenişehir",
+      "phone": "781 81 81",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Yenisehir/AnaSayfa.aspx",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
       }
     },
     {
       "id": 9,
-      "name": "Glenna Reichert",
-      "username": "Delphine",
-      "email": "Chaim_McDermott@dana.io",
-      "address": {
-        "street": "Dayna Park",
-        "suite": "Suite 449",
-        "city": "Bartholomebury",
-        "zipcode": "76495-3109",
-        "geo": {
-          "lat": "24.6463",
-          "lng": "-168.8889"
-        }
-      },
-      "phone": "(775)976-6794 x41206",
-      "website": "conrad.com",
-      "company": {
-        "name": "Yost and Sons",
-        "catchPhrase": "Switchable contextually-based project",
-        "bs": "aggregate real-time technologies"
+      "name": "Adana ADN-01",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Adana DHMI",
+      "phone": "435 03 80",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Adana/AnaSayfa.aspx",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
       }
     },
     {
       "id": 10,
-      "name": "Clementina DuBuque",
-      "username": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz",
-      "address": {
-        "street": "Kattie Turnpike",
-        "suite": "Suite 198",
-        "city": "Lebsackbury",
-        "zipcode": "31428-2261",
-        "geo": {
-          "lat": "-38.2386",
-          "lng": "57.2232"
-        }
-      },
-      "phone": "024-648-3804",
-      "website": "ambrose.net",
-      "company": {
-        "name": "Hoeger LLC",
-        "catchPhrase": "Centralized empowering task-force",
-        "bs": "target end-to-end models"
+      "name": "Adana ADN-06",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Adana DHMI",
+      "phone": "435 03 80",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Adana/AnaSayfa.aspx",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Hatay HTY-05",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Hatay Havalimanı",
+      "phone": "235 13 00",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Hatay/AnaSayfa.aspx",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Hatay HTY-09",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Hatay Havalimanı",
+      "phone": "235 13 00",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Hatay/AnaSayfa.aspx",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Antalya ANL-12",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Antalya Havalimanı",
+      "phone": "444 74 23",
+      "website": "https://www.antalya-airport.aero/anasayfa",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Antalya ANL-14",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Antalya Havalimanı",
+      "phone": "444 74 23",
+      "website": "https://www.antalya-airport.aero/anasayfa",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Trabzon TBZ-16",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Trabzon Havalimanı",
+      "phone": "328 09 41",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Trabzon/AnaSayfa.aspx",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Trabzon TBZ-21",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Trabzon Havalimanı",
+      "phone": "328 09 41",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Trabzon/AnaSayfa.aspx",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Kars KRS-23",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Harakani Havalimanı",
+      "phone": "213 56 67",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Kars/AnaSayfa.aspx",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Kars KRS-27",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Harakani Havalimanı",
+      "phone": "213 56 67",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Kars/AnaSayfa.aspx",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Sivas SVS-28",
+      "price": "180",
+      "flightLength": "No Stops",
+      "airPort": "Nuri Demirağ",
+      "phone": "224 86 87",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Sivas/AnaSayfa.aspx",
+      "hour": {
+        "departure": "13:00",
+        "arrival": "14:00"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Sivas SVS-30",
+      "price": "160",
+      "flightLength": "No Stops",
+      "airPort": "Nuri Demirağ",
+      "phone": "224 86 87",
+      "website": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Sivas/AnaSayfa.aspx",
+      "hour": {
+        "departure": "16:00",
+        "arrival": "17:00"
       }
     }
   ]

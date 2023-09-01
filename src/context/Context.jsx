@@ -12,23 +12,32 @@ function Provider({ children }) {
   const [isLoading, setIsLoading] = useState(false);
 
   const fetchData = async (value) => {
-    const response = await axios.get("http://localhost:3000/user");
+    const response = await axios.get("http://localhost:3000/flights");
     // console.log(response);
     const result = response.data.filter((item) => {
       return (
-        value && item && item.name && item.name.toLowerCase().includes(value)
+        value &&
+        item &&
+        item.name &&
+        (item.name.toLowerCase().includes(value) ||
+          item.name.toUpperCase().includes(value))
       );
     });
+    console.log(result);
     setResult(result);
   };
 
   const departureData = async (value) => {
     try {
       setIsLoading(true);
-      const response = await axios.get("http://localhost:3000/user");
+      const response = await axios.get("http://localhost:3000/flights");
       const result = response.data.filter((item) => {
         return (
-          value && item && item.name && item.name.toLowerCase().includes(value)
+          value &&
+          item &&
+          item.name &&
+          (item.name.toLowerCase().includes(value) ||
+            item.name.toUpperCase().includes(value))
         );
       });
       if (result.length === 0) {
@@ -45,10 +54,14 @@ function Provider({ children }) {
   const arrivalData = async (value) => {
     try {
       setIsLoading(true);
-      const response = await axios.get("http://localhost:3000/user");
+      const response = await axios.get("http://localhost:3000/flights");
       const result = response.data.filter((item) => {
         return (
-          value && item && item.name && item.name.toLowerCase().includes(value)
+          value &&
+          item &&
+          item.name &&
+          (item.name.toLowerCase().includes(value) ||
+            item.name.toUpperCase().includes(value))
         );
       });
       if (result.length === 0) {

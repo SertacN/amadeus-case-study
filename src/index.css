@@ -27,11 +27,21 @@
 .displayed-none {
   display: none;
 }
+a {
+  text-decoration: none;
+  color: #2676c2;
+}
+.main-dark-color {
+  color: #004a92;
+}
+.main-light-color {
+  color: #2676c2;
+}
 /* Loading Animasyon Css */
 .spinner {
   width: 10em;
   height: 10em;
-  border-top: 1em solid #6da9f5;
+  border-top: 1em solid #2676c2;
   border-right: 1em solid transparent;
   border-radius: 50%;
   margin: auto;

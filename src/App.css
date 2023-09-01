@@ -128,7 +128,7 @@ input[type="date"]:focus {
   position: absolute;
   left: 115px;
   top: 180px;
-  max-height: 100px;
+  max-height: 150px;
   overflow-y: scroll;
 }
 .result {
@@ -139,4 +139,39 @@ input[type="date"]:focus {
   border: none;
   font-size: 14px;
   background: none;
+}
+/* FlightList CSS */
+.fligth-list-container {
+  display: flex;
+  width: 95%;
+  margin: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.flight-list {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.flight-list-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 16px 0;
+  align-items: flex-start;
+}
+.fx-cl-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price {
+  background-color: #2676c2;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.font-large {
+  font-size: 18px;
+  font-weight: 600;
 }
